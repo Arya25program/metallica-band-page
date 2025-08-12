@@ -49,11 +49,16 @@ body {
 /* Hero Banner */
 .hero {
   width: 100%;
-  height: 787px;
-  background: url('../images/v111_141.png') center/cover no-repeat;
-  position: relative;
-  margin-top: 80px;
+  height: 100vh;
+  overflow: hidden;
 }
+
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 
 /* Section General Styles */
 .section {
