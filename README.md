@@ -55,7 +55,3 @@ metallica-fanpage/
 ## 🤘 About Metallica
 
 Metallica is one of the most influential heavy metal bands in the world, known for classics like *Enter Sandman*, *Master of Puppets*, and *Nothing Else Matters*. This page is a tribute to their music and legacy.
-
-
-If you want, I can also make a **cooler, dark-mode themed README** with emojis, ASCII dividers, and a more "metal" aesthetic.
-Do you want me to make that version too?
