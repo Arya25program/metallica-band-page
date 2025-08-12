@@ -29,10 +29,13 @@ Built with **HTML** and **CSS** for a clean and modern look.
 ```
 metallica-fanpage/
 │
-├── index.html          # Homepage
-├── css/
-│   └── main.css        # Stylesheet
-└── images/             # Band & other images
+├── index.html  
+├── contact.html 
+├── aboutus.html 
+├── ticket.html 
+├── gallery.html  
+├── main.css  
+└── images     
 ```
 
 ---
