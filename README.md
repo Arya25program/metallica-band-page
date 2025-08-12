@@ -1,10 +1,4 @@
-# metallica-band-page
-Got it — you want a **GitHub README** for your *Metallica Fanpage* project.
-Here’s a clean, professional, and slightly engaging version that would work well for your repo:
-
----
-
-# 🎸 Metallica Fanpage
+# 🎸 Metallica Band Page
 
 A simple, responsive fan-made website dedicated to **Metallica**, showcasing the band’s history, members, and music.
 Built with **HTML** and **CSS** for a clean and modern look.
@@ -17,6 +11,7 @@ Built with **HTML** and **CSS** for a clean and modern look.
 * **Band members** section with images & descriptions
 * **Featured songs** section
 * **Contact us** and **Address** details
+* **Booking Shows** that play their **albums**
 * Responsive layout for different screen sizes
 
 ---
@@ -43,9 +38,7 @@ metallica-fanpage/
 ---
 
 ## 📸 Preview
-
-![Preview Screenshot](images/preview.png)
-
+//must upload
 ---
 
 ## 🔧 How to Run
