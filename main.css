@@ -1,0 +1,230 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 14px;
+  font-family: 'Oswald', sans-serif;
+  background-color: #010103;
+  color: rgba(209, 230, 229, 1);
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header/Navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(1, 1, 3, 0.6);
+  z-index: 999;
+}
+
+.navbar a {
+  color: rgba(209, 230, 229, 1);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0 15px;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #a3c0bf;
+}
+
+.logo img {
+  height: 80px;
+}
+
+/* Hero Banner */
+.hero {
+  width: 100%;
+  height: 787px;
+  background: url('../images/v111_141.png') center/cover no-repeat;
+  position: relative;
+  margin-top: 80px;
+}
+
+/* Section General Styles */
+.section {
+  padding: 100px 20px;
+}
+
+.centered {
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.text-light {
+  color: #a3c0bf;
+}
+
+/* Featured Songs */
+.featured-songs {
+  padding: 100px 20px;
+  background-color: #0b0b0d;
+}
+
+.featured-songs h2 {
+  font-size: 48px;
+  color: rgba(163,192,191,0.9);
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+/* Song (Generic Section with Image + Text) */
+.song {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  margin-bottom: 60px;
+  flex-wrap: wrap;
+}
+
+.song img {
+  width: 300px;
+  border-radius: 26px;
+  object-fit: cover;
+}
+
+.song-info {
+  flex: 1;
+  min-width: 250px;
+}
+
+.song-info h3 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: rgba(163,192,191,0.9);
+}
+
+.song-info p {
+  font-size: 20px;
+  line-height: 1.6;
+  color: rgba(163,192,191,0.9);
+}
+
+/* About Us (Specific) */
+.aboutus {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.aboutus .song-info {
+  flex: 10;
+}
+
+.aboutus .song-info p {
+  font-size: 30px;
+  line-height: 1.8;
+}
+
+/* Image Collage */
+.image-collage {
+  padding: 100px 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  background-color: #111;
+}
+
+.image-collage img {
+  width: 400px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.image-collage img:hover {
+  transform: scale(1.1); /* slightly stronger zoom */
+}
+
+.btn-gallery {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 26px 42px; /* bigger button */
+  background-color: #a3c0bf;
+  color: #010103;
+  font-weight: bold;
+  font-size: 28px; /* bigger text */
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Centering */
+.song-info {
+  text-align: center; /* centers the button */
+}
+
+.btn-gallery:hover {
+  background-color: #89a8a7;
+  transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+  background-color: rgb(32, 32, 32);
+  font-size: 20px;
+  color: white;
+  padding: 20px;
+  font-family: 'Oswald', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: auto; /* pushes footer to bottom if content is short */
+}
+
+footer div {
+  text-align: left;
+  min-width: 200px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .navbar a {
+    margin: 10px 0;
+  }
+
+  .song,
+  .aboutus {
+    flex-direction: column;
+    align-items: left;
+  }
+
+  .song img,
+  .aboutus img {
+    width: 80%;
+  }
+
+  .song-info {
+    text-align: left;
+  }
+
+  footer {
+    text-align: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
