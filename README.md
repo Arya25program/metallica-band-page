@@ -41,7 +41,13 @@ metallica-fanpage/
 ---
 
 ## 📸 Preview
-//must upload
+<img width="1901" height="938" alt="image" src="https://github.com/user-attachments/assets/0e1e9ae1-f387-4304-a99e-43c04ac1a532" />
+<img width="1149" height="783" alt="image" src="https://github.com/user-attachments/assets/74496527-1a66-4822-87ac-87ffbc083f6a" />
+<img width="1895" height="937" alt="image" src="https://github.com/user-attachments/assets/ef7c2d02-8e85-40aa-b824-1f535562ae9e" />
+<img width="1898" height="938" alt="image" src="https://github.com/user-attachments/assets/2cef9f52-6527-42c4-afd8-acefeb3ca295" />
+
+
+
 ---
 
 ## 🔧 How to Run
